@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jack.meituangoodsdetails.view.MyNestedScrollParent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:id="@+id/foodIV"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@mipmap/food_bg"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@color/color2e8b57"
+            android:text="MyTitle"/>
+
+    </FrameLayout>
+
+    <com.jack.meituangoodsdetails.view.MyNestedScrollChild
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/scrollText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="123\n456\n789\n111\n222\n333\n444\n555\n666\n777\n888\n999\n14\n12\n13\n44\n55\n66\n77\n88\n99\n11\n22\n33\n44\n55\n66\n77\n88\n99\n77\n88\n88\n8\n88\n88\n" />
+    </com.jack.meituangoodsdetails.view.MyNestedScrollChild>
+
+</com.jack.meituangoodsdetails.view.MyNestedScrollParent>
+

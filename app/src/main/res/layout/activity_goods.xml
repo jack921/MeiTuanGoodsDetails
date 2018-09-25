@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jack.meituangoodsdetails.view.GoodDetailsView
+        android:id="@+id/goods_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.jack.meituangoodsdetails.view.GoodDetailsView>
+
+    <com.jack.meituangoodsdetails.view.GoodsListView
+        android:id="@+id/goods_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/goods_list_behavior">
+    </com.jack.meituangoodsdetails.view.GoodsListView>
+
+    <com.jack.meituangoodsdetails.view.GoodsTitleView
+        android:id="@+id/goods_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </com.jack.meituangoodsdetails.view.GoodsTitleView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

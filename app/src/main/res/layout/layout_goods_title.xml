@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/title_view"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_back" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/ic_menu" />
+
+    <ImageView
+        android:id="@+id/ping"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/menu"
+        android:src="@mipmap/ic_ping" />
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/ping"
+        android:src="@mipmap/ic_start" />
+
+    <LinearLayout
+        android:id="@+id/search_broad"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/start"
+        android:background="@drawable/drawable_search"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/search_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_search" />
+
+        <TextView
+            android:id="@+id/search_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="请输入商品"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>
+

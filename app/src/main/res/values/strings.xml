@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MeiTuanGoodsDetails</string>
+    <string name="goods_list_behavior">com.jack.meituangoodsdetails.hehavior.GoodsListBehavior</string>
+    <string name="goods_title_behavior">com.jack.meituangoodsdetails.hehavior.GoodsTitleBehavior</string>
+
+</resources>
